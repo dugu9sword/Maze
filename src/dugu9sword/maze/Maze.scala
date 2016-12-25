@@ -50,7 +50,7 @@ class Maze {
             gameOver = true
         } else
             reward = 0
-        println(currentX + "," + currentY + ":" + reward)
+        //        println(currentX + "," + currentY + ":" + reward)
         return reward
     }
 
